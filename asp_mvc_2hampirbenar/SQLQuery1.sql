@@ -75,3 +75,4 @@ GO
 ALTER TABLE [dbo].[SYSUserRole]  WITH CHECK ADD FOREIGN KEY([SYSUserID])   
 REFERENCES [dbo].[SYSUser] ([SYSUserID])   
 GO   
+
